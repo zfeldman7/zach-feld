@@ -15,6 +15,8 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="assets/css/please-wait.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,6 +29,56 @@
     <title>React App</title>
   </head>
   <body>
+      <script type="text/javascript" src="assets/js/please-wait.min.js"></script>
+      <script type="text/javascript">
+        const loadingMessages = ["Dancing to Stepmania...",
+                               "Digging for treasure...",
+                               "Downloading extra RAM...",
+                               "Drinking more lychee bubble tea...",
+                               "Eating more seaweed...",
+                               "Escaping the loading page...",
+                               "Figuring out how to close vim...",
+                               "Finding more friends...",
+                               "Finding the stash of loading messages...",
+                               "Getting the actors ready...",
+                               "Grading student assignments...",
+                               "Holding TA hours...",
+                               "Illuminating the stories of the people in the street...",
+                               "Keeping the coffee sweet...",
+                               "Loading humorous message...",
+                               "Looking around at how lucky we are to be alive right now...",
+                               "Mixing drinks and changing lives...",
+                               "Negotiating for net neutrality...",
+                               "Not throwing away his shot...",
+                               "Patching a security vulnerability...",
+                               "Playing Kirby by spamming Down-B...",
+                               "Printing more trading cards...",
+                               "Programming the flux capacitor...",
+                               "Publishing the next edition of the newspaper...",
+                               "Putting bubbles in the seltzer...",
+                               "Reassembling the string cheese...",
+                               "Setting up the lights...",
+                               "Sending a Slack message...",
+                               "Shipping quickly and often...",
+                               "Solving more physics problems...",
+                               "Sorting the lines...",
+                               "Spinning up the hamster...",
+                               "Swapping time and space...",
+                               "Taking some photos...",
+                               "Thinking past tomorrow...",
+                               "Tightening loose screws...",
+                               "Trying to catch them all...",
+                               "Trying to go faster...",
+                               "Turning on the lights...",
+                               "Warming up the particle accelerator...",
+                               "Writing every night like he's running out of time..."]
+      const loadingMessage = loadingMessages[Math.floor(Math.random() * loadingMessages.length)];
+      window.loading_screen = window.pleaseWait({
+          logo: "assets/img/logo192.png",
+          backgroundColor: '#18212D',
+          loadingHtml: loadingMessage + "<div class='sk-spinner sk-spinner-wave'><div class='sk-rect1'></div><div class='sk-rect2'></div><div class='sk-rect3'></div><div class='sk-rect4'></div><div class='sk-rect5'></div></div>"
+      });
+      </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +91,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
+
+    <script type="text/javascript">
+      window.loading_screen.finish();
+    </script>
   </body>
 </html>

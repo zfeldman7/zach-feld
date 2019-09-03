@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Paper, Button, CssBaseline, Container, Grid } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/styles';
+import { theme } from './App.theme';
+//import logo from './logo.svg';
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      <CssBaseline />
+      <ThemeProvider theme={ theme }>
+        <Container>
+          <Paper>
+            <Grid container justify="center" spacing={2}>
+              <Grid item>
+                <Button variant="contained" color="primary">
+                  Primary
+                </Button>
+              </Grid>
+              <Grid item>
+                <Button variant="contained" color="primary">
+                  Primary
+                </Button>
+              </Grid>
+              <Grid item>
+                <Button variant="contained" color="primary">
+                  Primary
+                </Button>
+              </Grid>
+            </Grid>
+          </Paper>
+        </Container>
+      </ThemeProvider>
     </div>
   );
 }
-
-export default App;
