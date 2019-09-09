@@ -8,6 +8,8 @@ export const footerStyles = makeStyles ((theme:Theme) => createStyles ({
         maxWidth: 'none',
         marginTop: '50px',
         padding: '75px',
+        margin: '0px',
+        width: '100%',
     },
     hyperlink: {
         color: theme.palette.primary.contrastText,
