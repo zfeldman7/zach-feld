@@ -10,7 +10,7 @@ export const Header: FC = () => {
     return (
         <Fragment>
         <HideOnScroll>
-            <AppBar className={classes.root}>
+            <AppBar className={classes.root} position="sticky">
                 <Toolbar>
                     <Grid container spacing={4} justify="center" alignItems="center">
                         <Grid item>
