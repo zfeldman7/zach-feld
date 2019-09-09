@@ -6,7 +6,7 @@ export const headerStyles = makeStyles ((theme:Theme) => createStyles ({
         color: theme.palette.primary.contrastText,
         //'#061826' deep dark blue
         maxWidth: 'none',
-        marginTop: '50px',
+        marginBottom: '50px',
         padding: '75px',
     },
     hyperlink: {

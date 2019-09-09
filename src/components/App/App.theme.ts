@@ -1,4 +1,4 @@
-import { createMuiTheme } from '@material-ui/core';
+import { createMuiTheme, makeStyles } from '@material-ui/core';
 
 export const theme = createMuiTheme({
     palette: {
@@ -16,11 +16,12 @@ export const theme = createMuiTheme({
             paper: '#EFF2F1',
         }
     },
-    overrides: {
-        MuiPaper: {
-            root: {
-                margin: '50px',
-            },
-        },
-    },
 });
+
+export const styles = makeStyles((theme) => ({
+    scrollTop: {
+        position: 'fixed',
+        bottom: theme.spacing(5),
+        right: theme.spacing(5),
+    },
+}))
