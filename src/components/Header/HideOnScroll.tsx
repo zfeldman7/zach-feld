@@ -5,7 +5,7 @@ export const HideOnScroll: FC = ({ children }) => {
    
     const trigger = useScrollTrigger({
         disableHysteresis: true,
-        threshold: 1500,
+        threshold: 50,
     });
 
     return (
