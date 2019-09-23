@@ -19,5 +19,4 @@ export const headerStyles = makeStyles ((theme:Theme) => createStyles ({
     icon: {
         paddingRight: '7px',
     },
-
 }))

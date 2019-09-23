@@ -16,6 +16,18 @@ export const theme = createMuiTheme({
             paper: '#EFF2F1',
         }
     },
+    overrides: {
+        MuiDivider: {
+            root: {
+                backgroundColor: '#FFFFFF',
+                width: '100%',
+            },
+            vertical: {
+                height: '200px',
+            },
+
+        },
+    },
 });
 
 export const styles = makeStyles((theme) => ({
