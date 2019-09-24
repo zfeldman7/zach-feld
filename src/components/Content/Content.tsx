@@ -4,6 +4,7 @@ import { ScrollTop } from '../App/ScrollTop';
 import { contentStyles } from './Content.theme';
 import { Experience } from './Experience'; 
 import { Coursework } from './Coursework';
+import { Skills } from './Skills';
 
 
 export const Content: FC = () => {
@@ -14,8 +15,10 @@ export const Content: FC = () => {
         <Grid container direction="column" justify="center" alignItems="center">
             <Grid item lg={10} md={8}>
                     <Experience />
-                    <br />
+                    <br /> <hr /> <br />
                     <Coursework />
+                    <br /> <hr /> <br />
+                    <Skills />
             <ScrollTop />
             </Grid>
         </Grid>

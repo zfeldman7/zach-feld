@@ -14,8 +14,8 @@ export const Header: FC = () => {
                 <Toolbar>
                     <Grid container spacing={10} direction="row" justify="center" alignItems="center">
                         <Grid item md={5}>
+                            <Typography variant="h4">Welcome! &#128075; <br/></Typography>
                             <Typography>
-                                Welcome! &#128075; <br/> 
                                 I'm Zach Feldman. I'm currently studying Computer Information Systems at Bentley University.
                                 <br/><br/>
                                 <Hidden smDown>

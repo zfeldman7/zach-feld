@@ -65,8 +65,6 @@ export const Experience: FC = () => {
         </Box>
         <br />
         
-        <Box > <Divider /> </Box>
-        
 
     </Grid>
     )

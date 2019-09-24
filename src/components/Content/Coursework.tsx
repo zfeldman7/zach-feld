@@ -45,7 +45,7 @@ export const Coursework: FC = () => {
                 <i>Spring 2018</i>
             </Typography>
         </Box>
-        <br /> <hr /> <br />
+        <Box width="50%"><br /> <hr /> <br /></Box>
         <Box borderLeft="5px solid" borderColor={purple} paddingLeft="15px">
             <Typography variant="body1">
                 <b>CS 401 - Directed Study: Data Structures and Algorithms</b> <br />
