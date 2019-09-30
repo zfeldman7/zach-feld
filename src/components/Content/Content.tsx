@@ -5,6 +5,7 @@ import { contentStyles } from './Content.theme';
 import { Experience } from './Experience'; 
 import { Coursework } from './Coursework';
 import { Skills } from './Skills';
+import { Hobbies } from './Hobbies';
 
 
 export const Content: FC = () => {
@@ -19,6 +20,8 @@ export const Content: FC = () => {
                     <Coursework />
                     <br /> <hr /> <br />
                     <Skills />
+                    <br /> <hr /> <br />
+                    <Hobbies />
             <ScrollTop />
             </Grid>
         </Grid>

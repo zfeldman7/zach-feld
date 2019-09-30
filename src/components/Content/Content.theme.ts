@@ -8,9 +8,13 @@ export const contentStyles = makeStyles ((theme:Theme) => createStyles ({
        
     },
     icon: {
-        
+        height: '100%',
+        fontSize: '100px',
     },
     button: {
         margin: theme.spacing(1),
+    },
+    card: {
+        maxWidth: 200,
     },
 }))

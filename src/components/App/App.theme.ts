@@ -25,7 +25,17 @@ export const theme = createMuiTheme({
             vertical: {
                 height: '200px',
             },
-
+        },
+        MuiCardMedia: {
+            root: {
+                backgroundColor: '#4059AD',
+                height: '200px',
+            },
+        },
+        MuiTypography: {
+            caption: {
+                fontSize: '10px',
+            },
         },
     },
 });
