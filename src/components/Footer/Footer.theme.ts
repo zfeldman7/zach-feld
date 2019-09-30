@@ -10,6 +10,7 @@ export const footerStyles = makeStyles ((theme:Theme) => createStyles ({
         padding: '75px',
         margin: '0px',
         width: '100%',
+        position: 'relative',
     },
     hyperlink: {
         color: theme.palette.primary.contrastText,
@@ -21,5 +22,16 @@ export const footerStyles = makeStyles ((theme:Theme) => createStyles ({
     icon: {
         paddingRight: '7px',
     },
-
+    footnote: {
+        position: 'absolute',
+        bottom: '5px',
+        color: '#808080'
+    },
+    footnotelink: {
+        color: '#808080',
+        '&:hover': {
+            textDecoration: 'underline',
+            backgroundColor: theme.palette.primary.dark,
+        },
+    }
 }))
