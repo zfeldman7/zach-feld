@@ -28,7 +28,6 @@ export const theme = createMuiTheme({
         },
         MuiCardMedia: {
             root: {
-                backgroundColor: '#4059AD',
                 height: '200px',
             },
         },
