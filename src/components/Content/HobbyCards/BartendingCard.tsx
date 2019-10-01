@@ -13,9 +13,10 @@ export const BartendingCard: FC = () => {
                         <Shaker className={classes.icon} />
                 </CardMedia>
             </Box>
-            <CardContent>
+            <CardContent className={classes.cardContent}>
                 <Typography>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil doloribus laborum labore aspernatur cupiditate autem, 
+                    Bartending is one of my favorite ways to express myself. Turning simple ingredients into complex products, 
+                    there is no better feeling than creating something for others to enjoy.  
                 </Typography>
             </CardContent>
         </Card>

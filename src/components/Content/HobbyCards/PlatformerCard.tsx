@@ -12,9 +12,10 @@ export const PlatformerCard: FC = () => {
                         <Runner className={classes.icon} />
                 </CardMedia>
             </Box>
-        <CardContent>
+        <CardContent className={classes.cardContent}>
             <Typography>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil doloribus laborum labore aspernatur cupiditate autem, 
+                The most difficult platformers require a pixel-perfect precision that can drive any player mad. 
+                I find the iteration calming, learning the patience to overcome new obstacles at every turn... or frame rather. 
             </Typography>
         </CardContent>
     </Card>

@@ -17,4 +17,7 @@ export const contentStyles = makeStyles ((theme:Theme) => createStyles ({
     card: {
         maxWidth: 200,
     },
+    cardContent: {
+        height: '280px',
+    },
 }))

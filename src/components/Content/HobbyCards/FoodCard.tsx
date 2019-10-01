@@ -12,9 +12,10 @@ export const FoodCard: FC = () => {
                         <Food className={classes.icon} />
                 </CardMedia>
             </Box>
-            <CardContent>
+            <CardContent className={classes.cardContent}>
                 <Typography>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil doloribus laborum labore aspernatur cupiditate autem, 
+                There are two types of people in the world: those who eat to live and those who live to eat. 
+                I am certainly of the latter. I make it a point to seek out the best resturaunts wherever I travel.
                 </Typography>
             </CardContent>
         </Card>

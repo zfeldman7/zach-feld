@@ -15,16 +15,16 @@ export const Hobbies: FC = () => {
         <br />
             <Grid container spacing={3} direction="row" justify="center" alignItems="center">
                 <Grid item>
-                    <BartendingCard />         
+                    <PlatformerCard />
                 </Grid>
                 <Grid item>
-                    <PokerCard />         
+                    <BartendingCard />
                 </Grid>
                 <Grid item>
-                    <PlatformerCard />         
+                    <PokerCard />
                 </Grid>
                 <Grid item>
-                    <FoodCard />         
+                    <FoodCard />
                 </Grid>
             </Grid>
         </Fragment>

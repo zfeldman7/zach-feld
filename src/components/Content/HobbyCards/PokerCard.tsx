@@ -12,9 +12,11 @@ export const PokerCard: FC = () => {
                         <Cards className={classes.icon} />
                 </CardMedia>
             </Box>
-            <CardContent>
+            <CardContent className={classes.cardContent}>
                 <Typography>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil doloribus laborum labore aspernatur cupiditate autem, 
+                    Sitting at the poker table, all eyes on you, 
+                    forced to make a decision from any information you can scavenge from the opposition - 
+                    I find the game of tells exhilirating.
                 </Typography>
             </CardContent>
         </Card>
