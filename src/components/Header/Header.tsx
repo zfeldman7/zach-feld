@@ -34,7 +34,8 @@ export const Header: FC = () => {
                             <br/><br/>
                             
                             <Typography>
-                                Welcome! &#128075; I'm Zach Feldman. I'm currently studying Computer Information Systems at Bentley University.
+                                Welcome! &#128075; <br />
+                                I'm Zach Feldman. I'm currently studying Computer Information Systems at Bentley University.
                                 <br/><br/>
                                 <Hidden smDown>
                                     I have a strong passion for technology and I strive to understand how things work. 
