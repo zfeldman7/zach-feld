@@ -7,6 +7,14 @@ import { HideOnScroll } from './HideOnScroll'
 
 export const Header: FC = () => {
     const classes = headerStyles()
+    const red = "#EE6352"
+    const green = "#59CD90"
+    const blue = "#3FA7D6"
+    const yellow = "#FAC05E"
+    const orange = "#F79D84"
+    const grey = "#403F4C"
+    const purple = "#CABAC8"
+
     return (
         <Fragment>
         
@@ -14,9 +22,19 @@ export const Header: FC = () => {
                 <Toolbar>
                     <Grid container spacing={10} direction="row" justify="center" alignItems="center">
                         <Grid item md={5}>
-                            <Typography variant="h4">Welcome! &#128075; <br/></Typography>
+                            <Typography variant="h2" display="inline" style={{color:green}}>Z</Typography>
+                            <Typography variant="h4" display="inline" style={{color:yellow}}>A</Typography>
+                            <Typography variant="h4" display="inline" style={{color:red}}>C</Typography>
+                            <Typography variant="h4" display="inline" style={{color:blue}}>H</Typography>
+                            &nbsp;
+                            <Typography variant="h2" display="inline" style={{color:green}}>F</Typography>
+                            <Typography variant="h4" display="inline" style={{color:yellow}}>E</Typography>
+                            <Typography variant="h4" display="inline" style={{color:red}}>L</Typography>
+                            <Typography variant="h4" display="inline" style={{color:blue}}>D</Typography>
+                            <br/><br/>
+                            
                             <Typography>
-                                I'm Zach Feldman. I'm currently studying Computer Information Systems at Bentley University.
+                                Welcome! &#128075; I'm Zach Feldman. I'm currently studying Computer Information Systems at Bentley University.
                                 <br/><br/>
                                 <Hidden smDown>
                                     I have a strong passion for technology and I strive to understand how things work. 
