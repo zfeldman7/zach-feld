@@ -20,4 +20,10 @@ export const contentStyles = makeStyles ((theme:Theme) => createStyles ({
     cardContent: {
         height: '280px',
     },
+    skillGrid: {
+        textAlign: "center",
+        alignItems: "center",
+        width: '100%',
+        margin: '0',
+    },
 }))
