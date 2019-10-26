@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 import { contentStyles } from './Content.theme';
-import { Grid, Typography, Box } from '@material-ui/core';
+import { Grid, Typography, Box, Link } from '@material-ui/core';
 
 
 export const Coursework: FC = () => {
@@ -34,7 +34,7 @@ export const Coursework: FC = () => {
                 <i>Fall 2018</i><br />
                 In my programming fundementals class I took a step back from what I thought I knew about programming in a high-level language, 
                 and I learned best practices for programming in the Java language. As I honed my syntax skills, I was driven to deliver the best 
-                possible solutions for my problem sets. You can find my java assignments for this class here!
+                possible solutions for my problem sets. You can find my java assignments for this class <Link href="https://github.com/zfeldman7/java-assignments">here!</Link>
             </Typography>
         </Box>
         <br />
@@ -46,7 +46,7 @@ export const Coursework: FC = () => {
                 I gained deeper knowledge of the four object oriented principles. Using these principles, 
                 I was able to create objects to manipulate databases, 
                 read and write text and binary files, and create graphics using the Swing library. 
-                You can find the assignments from this class here!
+                You can find the assignments from this class <Link href="https://github.com/zfeldman7/java-assignments">here!</Link>
             </Typography>
         </Box>
         <br />
@@ -68,7 +68,7 @@ export const Coursework: FC = () => {
                 Since my school does not offer a traditional algorithms class, I took it upon myself to find a professor to teach me. 
                 I created the curriculum based around the MIT Introduction to Algorithms course. 
                 I am currently studying the structure and performance of various data structures and algorithms. 
-                I store all of my work for this class on a GitHub Repository here!
+                I store all of my work for this class in a GitHub Repository <Link href="https://github.com/zfeldman7/data-structures-algorithms">here!</Link>
             </Typography>
         </Box>
         <br />
