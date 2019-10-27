@@ -26,4 +26,12 @@ export const contentStyles = makeStyles ((theme:Theme) => createStyles ({
         width: '100%',
         margin: '0',
     },
+    popover: {
+        pointerEvents: 'none',
+    },
+    paper: {
+        padding: theme.spacing(1),
+        maxWidth: 200,
+        textAlign: "center",
+    },
 }))

@@ -12,7 +12,7 @@ export const Php: ComponentType<SvgIconProps> = (props) => (
         xmlSpace="preserve"{...props}>
             <defs>
                 <clipPath id="a" clipPathUnits="userSpaceOnUse">
-                <path d="M11.52 162C11.52 81.677 135.307 16.561 288 16.561S564.481 81.677 564.481 162c0 80.322-123.788 145.439-276.481 145.439-152.693 0-276.48-65.117-276.48-145.439"></path>
+                    <path d="M11.52 162C11.52 81.677 135.307 16.561 288 16.561S564.481 81.677 564.481 162c0 80.322-123.788 145.439-276.481 145.439-152.693 0-276.48-65.117-276.48-145.439"></path>
                 </clipPath>
                 <radialGradient
                 id="b"
@@ -37,14 +37,14 @@ export const Php: ComponentType<SvgIconProps> = (props) => (
                 <path d="M0 324h576V0H0v324z"></path>
                 </clipPath>
             </defs>
-            <g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 -4.4 394.299)">
+            <g clipPath="url(#a)" transform="matrix(1.25 0 0 -1.25 -4.4 394.299)">
                 <path
                 fill="url(#b)"
                 stroke="none"
                 d="M11.52 162C11.52 81.677 135.307 16.561 288 16.561S564.481 81.677 564.481 162c0 80.322-123.788 145.439-276.481 145.439-152.693 0-276.48-65.117-276.48-145.439"
                 ></path>
             </g>
-            <g clip-path="url(#c)" transform="matrix(1.25 0 0 -1.25 -4.4 394.299)">
+            <g clipPath="url(#c)" transform="matrix(1.25 0 0 -1.25 -4.4 394.299)">
                 <path
                 fill="#777bb3"
                 fillOpacity="1"
@@ -54,7 +54,7 @@ export const Php: ComponentType<SvgIconProps> = (props) => (
                 transform="translate(288 27.36)"
                 ></path>
             </g>
-            <g clip-path="url(#d)" transform="matrix(1.25 0 0 -1.25 -4.4 394.299)">
+            <g clipPath="url(#d)" transform="matrix(1.25 0 0 -1.25 -4.4 394.299)">
                 <path
                 fill="#000"
                 fillOpacity="1"

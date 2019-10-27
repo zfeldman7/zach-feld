@@ -3,7 +3,6 @@ import { Grid, ListItemText, ListItem, AppBar, Toolbar, Typography, Divider, Hid
 import { headerStyles } from './Header.theme'
 import { LinkedIn, Mail } from '@material-ui/icons'
 import { GitHub } from '../SVG/GitHub'
-import { HideOnScroll } from './HideOnScroll'
 
 export const Header: FC = () => {
     const classes = headerStyles()
@@ -11,9 +10,6 @@ export const Header: FC = () => {
     const green = "#59CD90"
     const blue = "#3FA7D6"
     const yellow = "#FAC05E"
-    const orange = "#F79D84"
-    const grey = "#403F4C"
-    const purple = "#CABAC8"
 
     return (
         <Fragment>
@@ -31,6 +27,9 @@ export const Header: FC = () => {
                             <Typography variant="h4" display="inline" style={{color:yellow}}>E</Typography>
                             <Typography variant="h4" display="inline" style={{color:red}}>L</Typography>
                             <Typography variant="h4" display="inline" style={{color:blue}}>D</Typography>
+                            <Typography variant="h4" display="inline" style={{color:yellow}}>M</Typography>
+                            <Typography variant="h4" display="inline" style={{color:red}}>A</Typography>
+                            <Typography variant="h4" display="inline" style={{color:blue}}>N</Typography>
                             <br/><br/>
                             
                             <Typography>
