@@ -1,7 +1,7 @@
-import React, { FC, Fragment } from 'react';
+import React, { FC } from 'react';
 
 import { contentStyles } from './Content.theme';
-import { Grid, Typography, Tooltip, Button } from '@material-ui/core';
+import { Grid, Typography, } from '@material-ui/core';
 import { Bootstrap } from '../SVG/Bootstrap';
 import { Css } from '../SVG/Css';
 import { Django } from '../SVG/Django';

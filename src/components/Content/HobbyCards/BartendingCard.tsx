@@ -1,7 +1,6 @@
 import React, { FC } from 'react'
 import { contentStyles } from '../Content.theme'
 import { Typography, Card, CardMedia, CardContent, Box } from '@material-ui/core'
-import { GitHub } from '../../SVG/GitHub'
 import { Shaker } from '../../SVG/Shaker'
 
 

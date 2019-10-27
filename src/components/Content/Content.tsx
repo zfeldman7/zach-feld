@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
-import { Grid, Typography, Container } from '@material-ui/core';
+import { Grid, Container } from '@material-ui/core';
 import { ScrollTop } from '../App/ScrollTop';
-import { contentStyles } from './Content.theme';
 import { Experience } from './Experience'; 
 import { Coursework } from './Coursework';
 import { Skills } from './Skills';
@@ -9,7 +8,6 @@ import { Hobbies } from './Hobbies';
 
 
 export const Content: FC = () => {
-    const classes = contentStyles()
 
     return (
     <Container>

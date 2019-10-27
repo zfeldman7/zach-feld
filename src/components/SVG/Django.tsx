@@ -1,4 +1,4 @@
-import React, { FC, ComponentType } from 'react';
+import React, { ComponentType } from 'react';
 import { SvgIcon } from '@material-ui/core';
 import { SvgIconProps } from '@material-ui/core/SvgIcon';
 

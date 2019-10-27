@@ -1,5 +1,4 @@
 import React, { FC, Fragment } from 'react'
-import { contentStyles } from './Content.theme'
 import { Grid, Typography } from '@material-ui/core'
 import { BartendingCard } from './HobbyCards/BartendingCard'
 import { PlatformerCard } from './HobbyCards/PlatformerCard'
@@ -8,7 +7,6 @@ import { FoodCard } from './HobbyCards/FoodCard'
 
 
 export const Hobbies: FC = () => {
-    const classes = contentStyles()
     return (
         <Fragment>
         <Typography variant="h5" align="center">Hobbies</Typography>

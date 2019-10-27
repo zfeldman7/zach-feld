@@ -1,7 +1,7 @@
-import React, { FC, Fragment } from 'react'
+import React, { FC } from 'react'
 import { contentStyles } from './Content.theme'
 import { SvgIconProps } from '@material-ui/core/SvgIcon'
-import { Button, Popover, Typography } from '@material-ui/core'
+import { Popover, Typography } from '@material-ui/core'
 
 
 type Props = {
