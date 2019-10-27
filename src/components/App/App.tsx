@@ -6,7 +6,6 @@ import { Footer } from '../Footer/Footer';
 import { Header } from '../Header/Header'
 import './App.css'
 import { Content } from '../Content/Content';
-//import logo from './logo.svg';
 
 export const App: FC = () => (
   <div id="main"> 

@@ -1,8 +1,8 @@
 import React, { FC, Fragment } from 'react'
 import { Grid, ListItemText, ListItem, AppBar, Toolbar, Typography, Divider, Hidden } from '@material-ui/core'
-import { headerStyles } from './Header.theme'
 import { LinkedIn, Mail } from '@material-ui/icons'
 import { GitHub } from '../SVG/GitHub'
+import { headerStyles } from './Header.theme'
 
 export const Header: FC = () => {
     const classes = headerStyles()

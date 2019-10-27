@@ -1,8 +1,7 @@
 import React, { FC } from 'react'
-import { contentStyles } from './Content.theme'
-import { SvgIconProps } from '@material-ui/core/SvgIcon'
 import { Popover, Typography } from '@material-ui/core'
-
+import { SvgIconProps } from '@material-ui/core/SvgIcon'
+import { contentStyles } from './Content.theme'
 
 type Props = {
     popoverText: string

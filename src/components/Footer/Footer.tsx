@@ -1,8 +1,8 @@
 import React, { FC, Fragment } from 'react'
 import { Grid, ListItemText, ListItem, Typography, Link, Box } from '@material-ui/core'
-import { footerStyles } from './Footer.theme'
 import { LinkedIn, Mail} from '@material-ui/icons'
 import { GitHub } from '../SVG/GitHub'
+import { footerStyles } from './Footer.theme'
 
 export const Footer: FC = () => {
     const classes = footerStyles()

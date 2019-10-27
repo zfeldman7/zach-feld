@@ -1,6 +1,4 @@
 import React, { FC } from 'react';
-
-import { contentStyles } from './Content.theme';
 import { Grid, Typography, } from '@material-ui/core';
 import { Bootstrap } from '../SVG/Bootstrap';
 import { Css } from '../SVG/Css';
@@ -17,6 +15,7 @@ import { Reactlogo } from '../SVG/Reactlogo';
 import { Sql } from '../SVG/Sql';
 import { Typescript } from '../SVG/Typescript';
 import { MouseOverIcon } from './MouseOverIcon';
+import { contentStyles } from './Content.theme';
 
 
 export const Skills: FC = () => {
