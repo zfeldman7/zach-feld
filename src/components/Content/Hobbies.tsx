@@ -38,7 +38,7 @@ export const Hobbies: FC = () => {
                     <HobbyCard 
                         cardText="Sitting at the poker table, all eyes on you, 
                         forced to make a decision from any information you can scavenge from the opposition - 
-                        I find the game of tells exhilirating."
+                        I find the game of tells exhilarating."
                         icon={Cards}
                         color={orange}
                     />
@@ -46,7 +46,7 @@ export const Hobbies: FC = () => {
                 <Grid item>
                     <HobbyCard 
                         cardText="There are two types of people in the world: those who eat to live and those who live to eat. 
-                        I am certainly of the latter. I make it a point to seek out the best resturaunts wherever I travel."
+                        I am certainly of the latter. I make it a point to seek out the best restaurants wherever I travel."
                         icon={Food}
                         color={blue}
                     />
