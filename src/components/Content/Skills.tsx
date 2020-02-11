@@ -87,7 +87,7 @@ export const Skills: FC = () => {
 
             <Grid item xs={6} sm={3}>
                 <MouseOverIcon 
-                    popoverText="This website is contained within the Node environment!"
+                    popoverText="This website was developed and tested using NodeJS!"
                     icon={Node}
                     id="Node"
                 />
